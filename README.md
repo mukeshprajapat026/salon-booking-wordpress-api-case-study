@@ -71,6 +71,8 @@ The plugin exposes **secure REST APIs consumed by the Flutter mobile application
 ---
 
 ## 🏗 System Architecture
+
+```
 Customer (Flutter Mobile App)
 │
 ▼
@@ -91,7 +93,7 @@ MySQL Database
 │
 ▼
 Salon Owner Dashboard (WordPress)
-
+```
 
 The **WordPress plugin acts as the central backend service layer** handling all booking logic and data management.
 
@@ -274,6 +276,8 @@ POST /notifications/read-all
 ## 📁 Repository Structure (Case Study Only)
 
 This repository contains **documentation and screenshots only**.
+
+```
 salon-booking-wordpress-api-case-study/
 │
 ├── README.md
@@ -282,6 +286,7 @@ salon-booking-wordpress-api-case-study/
 ├── salon-bookings.png
 ├── salon-services.png
 └── api-architecture.png
+```
 
 ---
 
